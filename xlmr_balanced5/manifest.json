@@ -1,0 +1,33 @@
+{
+  "version": "XLM-R balanced5 / original frozen thresholds",
+  "weights_sha256": "6a5b4b5cffe66d3fb55ec8eebfcfeeabfd3eaa3087cae6d94efa40dc38eb176e",
+  "files": {
+    "check_text.py": "0367394b9a0d2c7cfc4d0245607a3159e397c99ad81d3463c3b8f5e4565a1e5d",
+    "detector.py": "efcdd4823b455c2175500d11d7a162c3980764a51ad53321c0fc8a84af178f9a",
+    "evaluation/benchmark_original_project.py": "2ef061067dcf70cd351d30d5c9f1dfd9dd5db0b9e8a70d3ce5d1900c16503e94",
+    "evaluation/cpu_predictions.parquet": "6adf798d946af79255f8daa47f2e0f0b9a5acd147603f9a8b2c6b01afab20cf7",
+    "evaluation/cpu_speed.csv": "70fee7f4def82c9207407d289a9986c6b147e0bc403413150ea2086495079ea2",
+    "evaluation/full_cpu_benchmark.json": "d0006dc1e60a1ca39f2a722182cffbec50c6bed42606afa2be85514217b00efa",
+    "evaluation/metrics_by_generator.csv": "8c48027650ded1394984ab971814826ffc710656314e0cd6053c15463b8c9b2d",
+    "evaluation/metrics_by_language.csv": "bcb1e38415d87a6e9443bb5e534f81b8190089674afdf4e09c1ff5a116ebab66",
+    "evaluation/metrics_with_copied_returns.csv": "4dc3186994dca11a4c92ab2410b901207bf23539d13e0a2b64b71f11c3abd9ba",
+    "evaluation/original_calibration_receipt.json": "b004bbf9a03d50998c6d6dd57f2d647d355a08ccacb78c87e3122bc17c1e5fcf",
+    "evaluation/reviews_study_generation_summary.csv": "39a60e7508fc3287fe773320bdd525699550d73e00b1f08dd60f692c8b7ccb6e",
+    "evaluation/reviews_study_protocol.json": "9ddbdd40482366333f262d08d01ba77f8a2d286d9e2717eb42a0c46a34de1923",
+    "evaluation/reviews_study_returned_metrics.csv": "95f6a3a7afa4d6515011fa6c27bf0a808f079692b84e47ccfab9438c401b2a40",
+    "evaluation/reviews_study_sources.json": "ebc5efbcdd7a8093acacf17406a080391dad57f2017dcc769a15e994deed5470",
+    "evaluation/reviews_study_test_seal.json": "bfbe3ddacc21b55ef6705e7a9653254b94f31569c91beabc7da4c540b0ac22eb",
+    "evaluation/training_protocol.json": "bea7cd3a0378171bce2aba41c32d5517d6f61b89d336d9d55c2cd5795cb4a7b0",
+    "LICENSE-XLMR.txt": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+    "model/config.json": "b908b3f87354c9db5c129d6a65e19b936ddb12526808418525efdb4f7ebfaa40",
+    "model/model.safetensors": "6a5b4b5cffe66d3fb55ec8eebfcfeeabfd3eaa3087cae6d94efa40dc38eb176e",
+    "model/special_tokens_map.json": "66715ae6a0dd4aff4fe228bcaaccac6e52c83fd0ba80992c2be7d0e43b362307",
+    "model/thresholds.json": "9df8a5bae8791494fc0a299bebd1ff795069cb2a43324f32b7190d1223995b44",
+    "model/tokenizer.json": "3a56def25aa40facc030ea8b0b87f3688e4b3c39eb8b45d5702b3a1300fe2a20",
+    "model/tokenizer_config.json": "62afb6f4c471c995dbea42b3cafd78481f3982543023b5327fd4e7d5237a13a6",
+    "README.md": "8f0dbd73ec58566f7edeb1c01dd3eacd593a514da39d8d6e6f08c6574647a125",
+    "requirements.txt": "6482e87d086cfda7ccc2a37feafa2964794de27ffcea7c8bd0e51670386bfb26",
+    "self_test.py": "d3ab42a9647c08706f2eda253398c819f0236d4422a73c458e17d8d1b2a12bdd",
+    "self_test_cases.json": "f046ecfcdd06b16bc2405bfadbf8d4d868741948f7e8957c22b0ef9a7fc2f751"
+  }
+}

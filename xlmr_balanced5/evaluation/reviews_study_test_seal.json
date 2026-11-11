@@ -1,0 +1,92 @@
+{
+  "created_utc": "2026-11-11T16:19:07.601387+00:00",
+  "protocol_sha256": "9ddbdd40482366333f262d08d01ba77f8a2d286d9e2717eb42a0c46a34de1923",
+  "test_sha256": "4cb59df69077708deb41ab809a60581443fe152213a6bb6d437f096391fa75bc",
+  "generation_audit_sha256": "67f62ca4d564b364c2060341f248c53692d1934956f4b11b1e1cc3f09e65181b",
+  "manifest_sha256": "95f5b4d410142b9e69baa85daf7d2e42162744c8425e7c010343b24f7182ca85",
+  "references_sha256": "fe9cfc744bcc2403ae162be8e98e53cc1f1225792927f32d8c0c82d1577d2d4f",
+  "thresholds_sha256": "b80395d8a763b88d47f4a05ca7c56d4a25cdaa3cd37b9de83b4cff055cee9633",
+  "n": 4213,
+  "n_human": 1500,
+  "n_ai": 2713,
+  "matched_common_parents": 561,
+  "counts": [
+    {
+      "lang": "de",
+      "generator": "gemma4",
+      "n": 300
+    },
+    {
+      "lang": "de",
+      "generator": "human",
+      "n": 300
+    },
+    {
+      "lang": "de",
+      "generator": "qwen3",
+      "n": 276
+    },
+    {
+      "lang": "en",
+      "generator": "gemma4",
+      "n": 300
+    },
+    {
+      "lang": "en",
+      "generator": "human",
+      "n": 300
+    },
+    {
+      "lang": "en",
+      "generator": "qwen3",
+      "n": 289
+    },
+    {
+      "lang": "fr",
+      "generator": "gemma4",
+      "n": 300
+    },
+    {
+      "lang": "fr",
+      "generator": "human",
+      "n": 300
+    },
+    {
+      "lang": "fr",
+      "generator": "qwen3",
+      "n": 277
+    },
+    {
+      "lang": "ru",
+      "generator": "gemma4",
+      "n": 300
+    },
+    {
+      "lang": "ru",
+      "generator": "human",
+      "n": 300
+    },
+    {
+      "lang": "ru",
+      "generator": "qwen3",
+      "n": 111
+    },
+    {
+      "lang": "zh",
+      "generator": "gemma4",
+      "n": 295
+    },
+    {
+      "lang": "zh",
+      "generator": "human",
+      "n": 300
+    },
+    {
+      "lang": "zh",
+      "generator": "qwen3",
+      "n": 265
+    }
+  ],
+  "scores_used": false,
+  "interpretation": "Historical human reviews and full model rewrites; primary all valid AI plus all preselected humans; generation failures separate, no scoring-based filtering"
+}

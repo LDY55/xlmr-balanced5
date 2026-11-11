@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-11-11T09:01:48.771279+00:00",
+  "languages": [
+    "ru",
+    "en",
+    "de",
+    "fr",
+    "zh"
+  ],
+  "seed": 202611116,
+  "initialization": "Original five-language XLM-R pilot, before RU/EN-only CC adaptation; known generator provenance only",
+  "base_model_path": "D:\\CodexData\\xlmr_pilot5_20261111\\model",
+  "base_model_sha256": "29ac15bfc8a1b564acbbce5039a7e74fe410c1c676bc18591df6a54ed5368c40",
+  "base_training_sha256": "66c88bc8673dd07feaeb2956aa4531a2d384959c6322684d6b5ab097db430733",
+  "prior_cc_is_comparator_only": true,
+  "sources_sha256": "e6ce1a8047fcd3962b6054395c4a7f447173f9ad311863dc558a8ebfd7d9658d",
+  "development_sources": [
+    "News",
+    "Novel",
+    "Webtext",
+    "Wiki",
+    "Academic"
+  ],
+  "development_generators": [
+    "gpt-4o",
+    "qwen-max"
+  ],
+  "test_cohorts": {
+    "DetectRL-X_SEO": "250 parents per language/generator, DeepSeek-V3 and Gemini-2.5-Flash; unseen collection and families relative to XLM-R training",
+    "MAiDE-up": "All five-language reviews in the published file; new Booking corpus and GPT-4 checkpoint, same broader GPT family as training GPT-4o"
+  },
+  "external_selection": "No detector scores; remove exact and char3-5 cosine>=.90 development/previous-control overlap, exclude paired SEO parent, retain one same-label internal duplicate",
+  "roles": {
+    "train": "160e2b0b0a0f685e42a1d90d3019e010786a0a186a981fcf331410b8d57b19ec",
+    "validation": "ea85baa561e8363025fcc527e17aa3544fead200417d7be7ab62d1c17ae89366",
+    "calibration": "762e86bb7fb00398f6852f551218f3115b57a382af6ee0b0800236683845881d"
+  },
+  "manifest_sha256": "684f2c3ec952671be701a303feafedd0458b1c76e91cf07be862e36cc883e21d",
+  "training": {
+    "epochs": 3,
+    "batch_size": 4,
+    "accumulation": 8,
+    "lr": 1e-05,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.02,
+    "full_finetune": true,
+    "balanced_cells": "language/source/label",
+    "short_crop_probability": 0.4,
+    "short_crop_tokens": [
+      32,
+      64,
+      128,
+      256
+    ]
+  },
+  "checkpoint": "Max minimum-language standardized partial ROC-AUC at FPR .05 on validation; ties macro mean then earlier epoch; epoch0 comparator cannot win new model selection",
+  "document_score": "Mean raw AI-minus-human logits over all balanced non-overlapping windows of 382+2 tokens, no inference truncation",
+  "calibration": "Separate human parents; fixed 40% deterministic short-view augmentation; per-language one-sided95% binomial upper FPR bound .05; all thresholds frozen before test inference",
+  "metrics": "Recall, actual FPR, ROC-AUC, trapezoidal PR-AUC, AP per language and external corpus separately; min12letters refusals retained",
+  "test_gate": {
+    "recall": 0.5,
+    "fpr": 0.05
+  },
+  "no_new_annotations": true,
+  "no_generation": true,
+  "rejected": {
+    "length_ratio": 1008,
+    "tokens_outside16_4096": 85,
+    "short": 2
+  },
+  "near_removed_parents": 94
+}

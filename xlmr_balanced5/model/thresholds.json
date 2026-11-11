@@ -1,0 +1,53 @@
+{
+  "languages": {
+    "de": {
+      "n": 700,
+      "allowed_errors": 25,
+      "fp": 25,
+      "calibration_fpr": 0.03571428571428571,
+      "logit_threshold": 3.31507682800293,
+      "probability_threshold": 0.9649424284374934,
+      "nominal_upper95": 0.04952551143616751
+    },
+    "en": {
+      "n": 700,
+      "allowed_errors": 25,
+      "fp": 25,
+      "calibration_fpr": 0.03571428571428571,
+      "logit_threshold": 2.8637700080871586,
+      "probability_threshold": 0.9460261227706045,
+      "nominal_upper95": 0.04952551143616751
+    },
+    "fr": {
+      "n": 700,
+      "allowed_errors": 25,
+      "fp": 25,
+      "calibration_fpr": 0.03571428571428571,
+      "logit_threshold": 3.202017784118653,
+      "probability_threshold": 0.9609101394216976,
+      "nominal_upper95": 0.04952551143616751
+    },
+    "ru": {
+      "n": 700,
+      "allowed_errors": 25,
+      "fp": 25,
+      "calibration_fpr": 0.03571428571428571,
+      "logit_threshold": 2.755689144134522,
+      "probability_threshold": 0.9402338483361248,
+      "nominal_upper95": 0.04952551143616751
+    },
+    "zh": {
+      "n": 649,
+      "allowed_errors": 23,
+      "fp": 23,
+      "calibration_fpr": 0.03543913713405239,
+      "logit_threshold": 1.4862160682678225,
+      "probability_threshold": 0.8155096457324255,
+      "nominal_upper95": 0.04983656372121534
+    }
+  },
+  "model_sha256": "6a5b4b5cffe66d3fb55ec8eebfcfeeabfd3eaa3087cae6d94efa40dc38eb176e",
+  "version": "XLM-R balanced5",
+  "protocol_sha256": "bea7cd3a0378171bce2aba41c32d5517d6f61b89d336d9d55c2cd5795cb4a7b0",
+  "explicit_language_required": true
+}

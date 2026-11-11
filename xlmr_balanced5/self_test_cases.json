@@ -1,0 +1,32 @@
+[
+  {
+    "lang": "ru",
+    "text": "Сегодня я забрал книгу из библиотеки и прочитал первую главу.",
+    "logit": -1.9970018863677979,
+    "decision": "below_threshold"
+  },
+  {
+    "lang": "en",
+    "text": "I collected the book from the library today and read the first chapter.",
+    "logit": -2.4836015701293945,
+    "decision": "below_threshold"
+  },
+  {
+    "lang": "de",
+    "text": "Heute habe ich das Buch aus der Bibliothek abgeholt und das erste Kapitel gelesen.",
+    "logit": -1.2665624618530273,
+    "decision": "below_threshold"
+  },
+  {
+    "lang": "fr",
+    "text": "J’ai récupéré le livre à la bibliothèque et lu le premier chapitre.",
+    "logit": -1.9247825145721436,
+    "decision": "below_threshold"
+  },
+  {
+    "lang": "zh",
+    "text": "今天我从图书馆借了一本书，回家后读完了第一章。",
+    "logit": -1.2288964986801147,
+    "decision": "below_threshold"
+  }
+]

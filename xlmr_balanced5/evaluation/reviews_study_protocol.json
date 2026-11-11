@@ -1,0 +1,68 @@
+{
+  "created_utc": "2026-11-11T15:47:14.552174+00:00",
+  "languages": [
+    "ru",
+    "en",
+    "de",
+    "fr",
+    "zh"
+  ],
+  "seed": 202611118,
+  "base_model_path": "D:\\CodexData\\xlmr_balanced5_20261111\\model",
+  "base_model_sha256": "6a5b4b5cffe66d3fb55ec8eebfcfeeabfd3eaa3087cae6d94efa40dc38eb176e",
+  "sources_sha256": "ebc5efbcdd7a8093acacf17406a080391dad57f2017dcc769a15e994deed5470",
+  "roles": {
+    "train": "d011c12a927de419549a4cc64bdc47c40076240b1138f28101a8e25e186a1da5",
+    "validation": "9689af6dfd55372e638d7c59e6d2cb05472fcf7d60e50d41ff6c591c02139f3b",
+    "calibration": "67ebc055ac8183fb098e3d8c6d8a1963fc7f0f158324bf14d645467ade6e72b4"
+  },
+  "review_data": "Previously inspected MAiDE-up/Booking/GPT-4 retired as test; grouped by city+hotel across all languages and labels",
+  "train_generators": [
+    "GPT-4",
+    "gpt-4o",
+    "qwen-max"
+  ],
+  "test_sources": [
+    "Amazon MARC",
+    "RuReviews"
+  ],
+  "test_generators": [
+    "Qwen3-1.7B",
+    "Gemma-4-E2B-it"
+  ],
+  "generator_newness": "Gemma family absent from training; Qwen3 checkpoint absent, Qwen family shared with Qwen-Max. Prior Cal5 tasks used these families; no XLM-R training exposure.",
+  "training": {
+    "epochs": 3,
+    "batch_size": 4,
+    "accumulation": 8,
+    "lr": 5e-06,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.02,
+    "full_finetune": true,
+    "epoch_draws": 10000,
+    "review_mass": 0.5,
+    "short_crop_probability": 0.2,
+    "short_crop_tokens": [
+      32,
+      64,
+      128,
+      256
+    ]
+  },
+  "checkpoint": "Max minimum-language review validation standardized partial ROC-AUC at FPR .05, tie macro review then macro general then earlier; epoch0 may win to avoid forced regression",
+  "calibration": "Human Booking reviews from held-out hotels; per-language one-sided95% binomial upper FPR bound .05; no external threshold fitting",
+  "test": {
+    "parents_per_language": 300,
+    "selection": "stable hash, no detector scores; human length40..600chars, Chinese20..300; min12letters; audit inherited/development/prior-test exact and near",
+    "primary": "All completed, correct-language, nonidentical AI rewrites; human cohort retained independent of generator failures; explicit language",
+    "secondary": "Common parents across both generators and within-pair length ratio .8..1.25, plus posthoc ROC recall@5% labelled diagnostic not deployable",
+    "near_cutoff": 0.9,
+    "min_letters": 12
+  },
+  "no_new_annotation": true,
+  "known_limits": [
+    "MARC/RuReviews human origin inferred from historical collection, no individual authorship proof",
+    "Foundation pretraining unknown",
+    "Test covers rewrites by two compact local models, not arbitrary generators"
+  ]
+}

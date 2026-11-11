@@ -1,0 +1,58 @@
+{
+  "n": 4213,
+  "threads": 8,
+  "batch_size": 8,
+  "warm": true,
+  "tokenization_included": true,
+  "model_load_seconds": 0.8043821000028402,
+  "total_inference_seconds": 96.8279188995948,
+  "ms_per_document": 22.983128150865134,
+  "documents_per_second": 43.51017813745071,
+  "device": "cpu",
+  "torch": "2.7.1+cu128",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "hardware": "Intel Core i7-14700KF",
+  "test_sha256": "4cb59df69077708deb41ab809a60581443fe152213a6bb6d437f096391fa75bc",
+  "model_sha256": "6a5b4b5cffe66d3fb55ec8eebfcfeeabfd3eaa3087cae6d94efa40dc38eb176e",
+  "thresholds_sha256": "9df8a5bae8791494fc0a299bebd1ff795069cb2a43324f32b7190d1223995b44",
+  "decision_mismatches_vs_gpu": 0,
+  "max_logit_delta_vs_gpu": 0.0003608018159866333,
+  "per_language": [
+    {
+      "lang": "ru",
+      "n": 711,
+      "seconds": 21.815764399943873,
+      "ms_per_doc": 30.68321293944286,
+      "docs_per_second": 32.59111104086865
+    },
+    {
+      "lang": "en",
+      "n": 889,
+      "seconds": 19.638955899863504,
+      "ms_per_doc": 22.0910640043459,
+      "docs_per_second": 45.267172273968946
+    },
+    {
+      "lang": "de",
+      "n": 876,
+      "seconds": 19.841057499987073,
+      "ms_per_doc": 22.649609018250082,
+      "docs_per_second": 44.15087250266629
+    },
+    {
+      "lang": "fr",
+      "n": 877,
+      "seconds": 18.494672499713488,
+      "ms_per_doc": 21.088566134222905,
+      "docs_per_second": 47.419060814058
+    },
+    {
+      "lang": "zh",
+      "n": 860,
+      "seconds": 17.037468600086868,
+      "ms_per_doc": 19.81101000010101,
+      "docs_per_second": 50.47698224345459
+    }
+  ],
+  "interpretation": "Single full CPU pass over all 4213 retained independent test texts, batch throughput per document; not one-core latency. Same prior test, no fresh held-out confirmation after choosing release."
+}

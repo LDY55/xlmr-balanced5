@@ -1,0 +1,73 @@
+[
+  {
+    "repo": "mteb/amazon_reviews_multi",
+    "revision": "c379a6705fec24a2493fa68e011692605f44e119",
+    "file": "en/test.jsonl",
+    "path": "D:\\CodexData\\xlmr_reviews5_20261111\\raw\\amazon_en.jsonl",
+    "url": "https://huggingface.co/datasets/mteb/amazon_reviews_multi/resolve/c379a6705fec24a2493fa68e011692605f44e119/en/test.jsonl",
+    "sha256": "a18f5860ed40a89a2d2af4a0d1ed300394560ae61e414158009c1d781f2cce03",
+    "bytes": 1323341
+  },
+  {
+    "repo": "mteb/amazon_reviews_multi",
+    "revision": "c379a6705fec24a2493fa68e011692605f44e119",
+    "file": "de/test.jsonl",
+    "path": "D:\\CodexData\\xlmr_reviews5_20261111\\raw\\amazon_de.jsonl",
+    "url": "https://huggingface.co/datasets/mteb/amazon_reviews_multi/resolve/c379a6705fec24a2493fa68e011692605f44e119/de/test.jsonl",
+    "sha256": "d8802e7c603a4364ac04d4842bc806f01f045b189bdea386dab79343bff7b40a",
+    "bytes": 1534471
+  },
+  {
+    "repo": "mteb/amazon_reviews_multi",
+    "revision": "c379a6705fec24a2493fa68e011692605f44e119",
+    "file": "fr/test.jsonl",
+    "path": "D:\\CodexData\\xlmr_reviews5_20261111\\raw\\amazon_fr.jsonl",
+    "url": "https://huggingface.co/datasets/mteb/amazon_reviews_multi/resolve/c379a6705fec24a2493fa68e011692605f44e119/fr/test.jsonl",
+    "sha256": "cc8a56cb3c7bbb05671573d06dd7ae01cafff2f329a866b0b7749a64069ad5ea",
+    "bytes": 1324182
+  },
+  {
+    "repo": "mteb/amazon_reviews_multi",
+    "revision": "c379a6705fec24a2493fa68e011692605f44e119",
+    "file": "zh/test.jsonl",
+    "path": "D:\\CodexData\\xlmr_reviews5_20261111\\raw\\amazon_zh.jsonl",
+    "url": "https://huggingface.co/datasets/mteb/amazon_reviews_multi/resolve/c379a6705fec24a2493fa68e011692605f44e119/zh/test.jsonl",
+    "sha256": "fbfd39530f8a5cf40d64eca1bc35981c20def580a0794e3dacf11ed17ba6e605",
+    "bytes": 2014544
+  },
+  {
+    "repo": "mteb/amazon_reviews_multi",
+    "revision": "c379a6705fec24a2493fa68e011692605f44e119",
+    "file": "README.md",
+    "path": "D:\\CodexData\\xlmr_reviews5_20261111\\raw\\amazon_README.md",
+    "url": "https://huggingface.co/datasets/mteb/amazon_reviews_multi/resolve/c379a6705fec24a2493fa68e011692605f44e119/README.md",
+    "sha256": "3ae8f5d5d2ec1ea08969696e89663cdb69947d1c5e83ef0ff06f99759b3a56be",
+    "bytes": 47
+  },
+  {
+    "repo": "sismetanin/rureviews",
+    "revision": "2f6e61d30dc6c58ba47dce72e5803e1f0a3f38a7",
+    "file": "women-clothing-accessories.3-class.balanced.csv",
+    "path": "D:\\CodexData\\xlmr_reviews5_20261111\\raw\\rureviews.csv",
+    "url": "https://raw.githubusercontent.com/sismetanin/rureviews/2f6e61d30dc6c58ba47dce72e5803e1f0a3f38a7/women-clothing-accessories.3-class.balanced.csv",
+    "sha256": "db226708d966a1506560136ef85b33ea326eaf6119465d4b1edb5bf9395330fd",
+    "bytes": 21781685
+  },
+  {
+    "repo": "sismetanin/rureviews",
+    "revision": "2f6e61d30dc6c58ba47dce72e5803e1f0a3f38a7",
+    "file": "README.md",
+    "path": "D:\\CodexData\\xlmr_reviews5_20261111\\raw\\rureviews_README.md",
+    "url": "https://raw.githubusercontent.com/sismetanin/rureviews/2f6e61d30dc6c58ba47dce72e5803e1f0a3f38a7/README.md",
+    "sha256": "703f74c2dcc27041b11ace0581efdc1564cbd9f135e4442ab78ee6474e236364",
+    "bytes": 3864
+  },
+  {
+    "repo": "MichiganNLP/MAiDE-up",
+    "revision": "045e9933ba5c8c216a49c5efc69d07a766c38c3e",
+    "file": "all_data.csv",
+    "path": "D:\\CodexData\\xlmr_balanced5_20261111\\raw\\maide_all_data.csv",
+    "sha256": "ba7e6c05f81fe4c7d05cefb4b6ab8650a80020b4986156c14a9ed1aad0f81d5e",
+    "role": "retired prior test, now development only"
+  }
+]
