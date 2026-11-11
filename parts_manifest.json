@@ -1,0 +1,92 @@
+{
+  "archive": "xlmr_balanced5_release_20261111.zip",
+  "bytes": 1130040554,
+  "sha256": "2087f6bdba4a7c4b5377d4d4ace94e04faefda89b516f9dc0b2285d4e8fe8d3c",
+  "parts": [
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part001",
+      "size": 67108864,
+      "sha256": "a0c045dd0aa5289ecf50bcd4cf4cadee6ff24169ad82a24630f5104831cd6a02"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part002",
+      "size": 67108864,
+      "sha256": "05aa15111764c879dd43086fe5faab024e24998818d09ba6a78b77860c8bd390"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part003",
+      "size": 67108864,
+      "sha256": "a33efde88751a03a77f59bf59726f7f83cddd69a0ac9a75de25f563bbcd0f8c8"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part004",
+      "size": 67108864,
+      "sha256": "4a55effee2aceb39ed577d3b0b4149ec2ddecf2581dba074375d7832ffbe4a57"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part005",
+      "size": 67108864,
+      "sha256": "14dd28ebc5798b29e8173cbcc5cb1721998c2c878a3c3873a2afc4a5ca4c0033"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part006",
+      "size": 67108864,
+      "sha256": "9fe01246ba643f681249b42a13f08130da63237caf6fae0fa58066ed1f14e6db"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part007",
+      "size": 67108864,
+      "sha256": "6124402831bc81f85b923067d991da54c7960bf6810eb890f22395a40c43c534"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part008",
+      "size": 67108864,
+      "sha256": "6872607ff896fc17f4753ce98fc78a70cdd3a5af07cb0c5b1f7dd4408f581505"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part009",
+      "size": 67108864,
+      "sha256": "9695c15aa84f93fe7d1f3e19a2733164c603d2a3ca96157ff3b0d086655aefbf"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part010",
+      "size": 67108864,
+      "sha256": "e9526c87d5d2f9efbf4905714b63c555271adb4bc4dce10287230dc03188ac17"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part011",
+      "size": 67108864,
+      "sha256": "f09193a704d068372eaabdc818c8cd57bbfcb0087f317dda848102ef2762983a"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part012",
+      "size": 67108864,
+      "sha256": "0ea1ec287a9a8d2f7b23d3a6ab88567a5124aa11cd4dcbdc09b1b99ed4a13141"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part013",
+      "size": 67108864,
+      "sha256": "64bdcab0aad2ba01677aa94633dbe6ffb66f6f1989dc1e4eb5bc5f264bdd88f0"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part014",
+      "size": 67108864,
+      "sha256": "89a33a014a0d48c508d0dcf4682e18502b24ae9cac6e32d103f2621982e446e8"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part015",
+      "size": 67108864,
+      "sha256": "7eb25abb59f176e796e2371f34778b529829409a8c41fbaa30d4f44e57f1a702"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part016",
+      "size": 67108864,
+      "sha256": "a9b5e85d1571e32045cfdd9508cd25bfd6caf0fb82d4cbd5243c23be36e40f74"
+    },
+    {
+      "name": "xlmr_balanced5_release_20261111.zip.part017",
+      "size": 56298730,
+      "sha256": "8f7879c475821e776e66ce33ef2dba153f01ebdd4d18273d934daaa7f722594f"
+    }
+  ]
+}
